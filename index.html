@@ -10,6 +10,11 @@
 	<link rel="stylesheet" href="css/touchTouch.css">
 	<link rel="stylesheet" href="css/camera.css">
 
+	<link rel="stylesheet" href="css/contact-form.css">
+
+	<link rel="stylesheet" href="css/interests.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery-migrate-1.2.1.js"></script>
 	<script src='js/camera.js'></script>
@@ -18,13 +23,17 @@
 	<script src="js/script.js"></script>
 	
 
+	
+
 	<script src="js/jquery.mobile.customized.min.js"></script>
 	<script src="js/wow.js"></script>
+	
 	<!-- contact form -->
-	<link rel="stylesheet" href="css/contact-form.css">
 	<script src="js/TMForm.js"></script>
 	<script src="js/modal.js"></script>
 	<!-- end contact  -->
+
+	
 	<script>
 		$(document).ready(function () {
 			if ($('html').hasClass('desktop')) {
@@ -34,7 +43,8 @@
 	</script>
 	</head>
 <body class="index">
-<!--==============================header=================================-->
+
+	<!--==============================header=================================-->
 	<header id="header">
 		<div id="stuck_container">
 			<div class="container">
@@ -60,176 +70,239 @@
 			</div>
 		</div>
 	</header>
+	<!--=======content================================-->
 
-<!--=======content================================-->
-
-<section id="content">
-	<div class="full-width-container block-1">
-		<div class="camera_container">
-			<div id="camera_wrap">
-				<div class="item" data-src="images/index_img_slider-1.jpg">
-					<div class="camera_caption fadeIn">
-						<h3> Life is not fair – get used to it </h3>
-					</div>
-				</div>
-				<div class="item" data-src="images/slide2.jpg">
-					<div class="camera_caption fadeIn">
-						<h3>The busy have no time for tears</h3>
-					</div>
-				</div>
-				<div class="item" data-src="images/slide3.jpg">
-					<div class="camera_caption fadeIn">
-						<h3>Practice everyday</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="full-width-container block-2">
-		<div id="images" class="container">
-			<div class="row">
-				<div class="grid_12">
-					<header>
-						<h2><span>Some Image</span></h2>
-					</header>
-					<div class="isotope clearfix">
-						<a href="images/selfie.jpg" class="item-1 w-1"><div class="img_block"><img src="images/selfie.jpg" alt="img"  width="100%"></div><i>+</i></a>
-						<a href="images/true.jpg" class="item-2 w-2"><div class="img_block"><img src="images/true.jpg" alt="img" height="500px;"></div><i>+</i></a>
-						<a href="images/minh.jpg" class="item-3 w-1"><div class="img_block"><img src="images/minh.jpg" alt="img" height="500px;"></div><i>+</i></a>
-						<a href="images/index-1_img-7-big.jpg" class="item-4 w-2"><div class="img_block"><img src="images/index-1_img-7.jpg" alt="img"></div><i>+</i></a>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<div id="education" class="container">
-			<div class="row">
-				<div class="grid_12">
-					<header>
-						<h2><span style="color: rgb(60, 60, 62);"><ins>Education Background</ins></span></h2>
-					</header>
-					<div class="isotope clearfix">
-						<div>
-							<div class="row">
-								<a href="images/kimanh.png" class="item-1 w-1"><div class="img_block"><img src="images/kimanh.png" alt="img"  height="350px"></div><i>+</i></a>
-								<article class="grid_8">
-									<h4>Kim Anh High school</h4>
-									<p>2013-2015</p>
-								</article>
-							</div>
-							<div class="row">
-								<a href="images/k60.jpg" class="item-1 w-1"><div class="img_block"><img src="images/k60.jpg" alt="img"  height="350px"></div><i>+</i></a>
-								<article class="grid_8">
-									<h4>Hà Nội university of scient and technology</h4>
-									<p>2015-2020</p>
-								</article>
-							</div>
+	<section id="content">
+		<div class="full-width-container block-1">
+			<div class="camera_container">
+				<div id="camera_wrap">
+					<div class="item" data-src="images/index_img_slider-1.jpg">
+						<div class="camera_caption fadeIn">
+							<h3> Life is not fair – get used to it </h3>
 						</div>
 					</div>
-					<a href="#" class="btn">more</a>
+					<div class="item" data-src="images/slide2.jpg">
+						<div class="camera_caption fadeIn">
+							<h3>The busy have no time for tears</h3>
+						</div>
+					</div>
+					<div class="item" data-src="images/slide3.jpg">
+						<div class="camera_caption fadeIn">
+							<h3>Practice everyday</h3>
+						</div>
+					</div>
 				</div>
 			</div>
+		</div>
+		<div class="full-width-container block-2">
+			<div id="images" class="container">
+				<div class="row">
+					<div class="grid_12">
+						<header>
+							<h2><span>Some Image</span></h2>
+						</header>
+						<div class="isotope clearfix">
+							<a href="images/graduated.jpg" class="item-1 w-1"><div class="img_block"><img src="images/graduated.jpg" alt="img"  width="100%" height="800px;"></div><i>+</i></a>
+							<a href="images/true.jpg" class="item-2 w-2"><div class="img_block"><img src="images/true.jpg" alt="img" height="500px;"></div><i>+</i></a>
+							<a href="images/minh.jpg" class="item-3 w-1"><div class="img_block"><img src="images/minh.jpg" alt="img" height="500px;"></div><i>+</i></a>
+							<a href="images/selfie.jpg" class="item-4 w-2"><div class="img_block"><img src="images/selfie.jpg" alt="img" width="500px;"></div><i>+</i></a>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<hr>
+		<div class="full-width-container block-3">
+
+
+			<div class="container demo">
+				<div class="content">
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+					<h3 class="main-title"><span class="thin">Interesting </span>Travelling, badminton</h3>
+				</div>
+				</div>
+			</div>
+			
+			<hr>
+			<div id="education" class="container">
+				<div class="row">
+					<div class="grid_12">
+						<header>
+							<h2><span style="color: rgb(60, 60, 62);">Education Background</span></h2>
+						</header>
+						<div class="isotope clearfix">
+							<div>
+								<div class="row">
+									<a href="images/kimanh.png" class="item-1 w-1"><div class="img_block"><img src="images/kimanh.png" alt="img"  height="350px"></div><i>+</i></a>
+									<article class="grid_8">
+										<h4>Kim Anh High school</h4>
+										<p>2013-2015</p>
+									</article>
+								</div>
+								<div class="row">
+									<a href="images/k60.jpg" class="item-1 w-1"><div class="img_block"><img src="images/k60.jpg" alt="img"  height="350px"></div><i>+</i></a>
+									<article class="grid_8">
+										<h4>Hà Nội University of Scient and Technology</h4>
+										<p>2015-2020</p>
+									</article>
+								</div>
+							</div>
+						</div>
+						<a href="#" class="btn">more</a>
+					</div>
+				</div>
+			</div>
+			
 		</div>
 		<!-- end block 3 -->
-	</div>
-	<div id="projects" class="full-width-container block-4  parallax-block" data-stellar-background-ratio="0.5">
-		<span class="el-1">My best</span>
-		<span class="el-2">projects</span>
-		<a href="https://github.com/BinhMinhs10?tab=repositories" class="btn">more</a>
-	</div>
-	<div class="full-width-container block-5">
-		<div class="container">
-			<div class="row">
-				<div class="grid_12">
-					<header>
-						<h2><span>Intersts</span></h2>
-					</header>
-					<h4>Travelling, badminton, listening music</h4>
-				</div>
-				
-			</div>
+
+		<div id="projects" class="full-width-container block-4  parallax-block" data-stellar-background-ratio="0.5">
+			<span class="el-1">My best</span>
+			<span class="el-2">projects</span>
+			<a href="https://github.com/BinhMinhs10?tab=repositories" class="btn">more</a>
 		</div>
-	</div>
-	<br>
-	<div id="contact" class="full-width-container block-6">
-		<div  class="container">
-			<div class="row">
-				<div class="grid_5">
-					<form id="contact-form" action="bat/MailHandler.php" method="post">
-						<div class="contact-form-loader"></div>
-							<header>
-								<h2><span>Contact Form</span></h2>
-							</header>
-							<fieldset>
-									<label class="name">
-										<span class="text">Your Name:</span>
-										<input type="text" name="name" placeholder="" value="" data-constraints="@Required @JustLetters" />
+		
+		<br>
+		<div id="contact" class="full-width-container block-6">
+			<div  class="container">
+				<div class="row">
+					<div class="grid_5">
+						<form id="contact-form" action="bat/MailHandler.php" method="post">
+							<div class="contact-form-loader"></div>
+								<header>
+									<h2><span>Contact Form</span></h2>
+								</header>
+								<fieldset>
+										<label class="name">
+											<span class="text">Your Name:</span>
+											<input type="text" name="name" placeholder="" value="" data-constraints="@Required @JustLetters" />
+												<span class="empty-message">*This field is required.</span>
+												<span class="error-message">*This is not a valid name.</span>
+										</label>
+										<label class="email">
+											<span class="text">Your E-mail:</span>
+											<input type="text" name="email" placeholder="" value="" data-constraints="@Required @Email" />
 											<span class="empty-message">*This field is required.</span>
-											<span class="error-message">*This is not a valid name.</span>
-									</label>
-									<label class="email">
-										<span class="text">Your E-mail:</span>
-										<input type="text" name="email" placeholder="" value="" data-constraints="@Required @Email" />
-										<span class="empty-message">*This field is required.</span>
-										<span class="error-message">*This is not a valid email.</span>
-									</label>
-									<label class="phone">
-										<span class="text">Subject:</span>
-							              <input type="text" name="state" placeholder="" data-constraints="@JustLetters" />
-									</label>
-									<label class="message">
-										<span class="text">Message:</span>
-										<textarea name="message" placeholder="" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
-										<span class="empty-message">*This field is required.</span>
-										<span class="error-message">*The message is too short.</span>
-									</label>
-								<div class="cont_btn">
-									
-									<a href="#" data-type="submit" class="btn">Send</a>
-								</div>
-						</fieldset> 
-						<div class="modal fade response-message">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-										<h4 class="modal-title">Modal title</h4>
+											<span class="error-message">*This is not a valid email.</span>
+										</label>
+										<label class="phone">
+											<span class="text">Subject:</span>
+											<input type="text" name="state" placeholder="" data-constraints="@JustLetters" />
+										</label>
+										<label class="message">
+											<span class="text">Message:</span>
+											<textarea name="message" placeholder="" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+											<span class="empty-message">*This field is required.</span>
+											<span class="error-message">*The message is too short.</span>
+										</label>
+									<div class="cont_btn">
+										
+										<a href="#" data-type="submit" class="btn">Send</a>
 									</div>
-									<div class="modal-body">
-										You message has been sent! We will be in touch soon.
+							</fieldset> 
+							<div class="modal fade response-message">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											<h4 class="modal-title">Modal title</h4>
+										</div>
+										<div class="modal-body">
+											You message has been sent! We will be in touch soon.
+										</div>
 									</div>
 								</div>
 							</div>
+						</form>
+					</div>
+					<div class="grid_6 preffix_1">
+						<div>
+							<header>
+								<h2><span>Contact Information</span></h2>
+							</header>
+							<p class="el-1">
+								Tìm được môi trường chuyên nghiệp
+								<br><br>
+								Phát triển kỹ năng lập trình và học hỏi các kỹ năng khác
+								<br><br>
+								Tìm được người chung sở thích <br><br><br>
+							</p>
 						</div>
-					</form>
-				</div>
-				<div class="grid_6 preffix_1">
-					<div>
-						<header>
-							<h2><span>Contact Information</span></h2>
-						</header>
+						<div class="grid_3 alpha">
+							<div class="address">
+								<p>Study: Đại học Bách Khoa Hà Nội <br>Place: Minh Trí, Sóc sơn, HN.</p>
+							</div>
+						</div>
+						<div class="grid_3">
+							<div class="address">
+								<p>Telephone: 0367351997 <br>FAX: ------------- <br>E-mail: nguyenbinhminh07101997@gmail.com</p>
+							</div>
+						</div>
 						
-					</div>
-				
-					<div class="address">
-						<h4 style="text-align: left;">Place: Lập trí, Minh Trí, Sóc sơn, HN.</h4>
-						<h4 style="text-align: left;">Telephone: 01667351997 </h4>
-						<h4 style="text-align: left;">E-mail: nguyenbinhminh07101997@gmail.com</h4>
-						
-						
-					</div>
-					
 
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
+	
+
+	<!-- partial -->
+	<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js'></script>
+	<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js'></script>
+	<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js'></script><script  src="./script.js"></script>
+	
+	
+	<script>
+		jQuery(function(){
+			jQuery('#camera_wrap').camera({
+				height: '68.125%',
+				thumbnails: false,
+				pagination: true,
+				fx: 'simpleFade',
+				loader: 'none',
+				hover: false,
+				navigation: false,
+				playPause: false,
+				minHeight: "975px",
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function() { 
+				if ($('html').hasClass('desktop')) {
+					$.stellar({
+						horizontalScrolling: false,
+						verticalOffset: 20,
+						resposive: true,
+						hideDistantElements: true,
+					});
+				}
+			});
+	</script>
+
+	<script>
+		$(function(){
+			$('.isotope a').touchTouch();
+		});
+	</script>
+
+
+	<script>
+		$(function(){
+			$('#touch_gallery a').touchTouch();
+		});
+	</script>
+
+	
+
+</body>
 <!--=======footer=================================-->
 <footer id="footer">
 	<div class="container">
@@ -243,45 +316,4 @@
 	</div>
 	<div class="footer_bottom"><a href="#" rel="nofollow"><img src="images/footer.png" alt="logo" height="100px;" width="100%"></a></div>
 </footer>
-<script>
-	jQuery(function(){
-		jQuery('#camera_wrap').camera({
-			height: '68.125%',
-			thumbnails: false,
-			pagination: true,
-			fx: 'simpleFade',
-			loader: 'none',
-			hover: false,
-			navigation: false,
-			playPause: false,
-			minHeight: "975px",
-		});
-	});
-</script>
-<script>
-	$(document).ready(function() { 
-			if ($('html').hasClass('desktop')) {
-				$.stellar({
-					horizontalScrolling: false,
-					verticalOffset: 20,
-					resposive: true,
-					hideDistantElements: true,
-				});
-			}
-		});
-</script>
-
-<script>
-	$(function(){
-		$('.isotope a').touchTouch();
-	});
-</script>
-
-
-<script>
-	$(function(){
-		$('#touch_gallery a').touchTouch();
-	});
-</script>
-</body>
 </html>
