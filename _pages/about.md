@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "I am a Data Scientist in the VNPT. Focusing on state-of-the-art work in Data Science, Artificial Intelligence, especially in NLP and platform related. Feel free to connect with me on Gmail or follow me on Github"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
